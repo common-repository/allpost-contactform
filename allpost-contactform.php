@@ -3,7 +3,7 @@
 Plugin Name: All Post Contact Form
 Plugin URI: https://www.Rainbow-Link.com/catalogue.htm?&item_no=RLF16&link_id=wp
 Description: You can add a confirmation window and a submission window to your own html form(s) which you created, and send the data inputted into your html form to your E-mail address.
-Version: 1.7.3
+Version: 1.7.4
 Author: RainbowLink Inc.
 Author URI: https://www.Rainbow-Link.com/
 License:           GPL-2.0+
@@ -48,7 +48,7 @@ Copyright RainbowLink Inc. (email : info@Rainbow-Link.com)
     
     class RL_APCF
     {
-        const VERSION = "1.7.3";
+        const VERSION = "1.7.4";
 	    const SHORTCODE = "rlallpostcontactform";
         const OPTIONS = "allpost_contactform_options";
         
@@ -67,11 +67,7 @@ Copyright RainbowLink Inc. (email : info@Rainbow-Link.com)
         public static function enqueue_css(){
             wp_enqueue_style( 'allpost-contactform-style', plugins_url('allpost-contactform.css', __FILE__ ), array(), self::VERSION );
         }
-        
-        public static function enqueue_js(){
-	    wp_enqueue_script( 'allpost-contactform-js', plugins_url('allpost-contactform.js', __FILE__ ), array(), self::VERSION, false ); 
-		}
-        
+	
         public static function enqueue_admin_css(){
             wp_enqueue_style( 'allpost-contactform-style', plugins_url('allpost-contactform-admin.css', __FILE__ ), array(), self::VERSION);
         }
@@ -87,7 +83,6 @@ Copyright RainbowLink Inc. (email : info@Rainbow-Link.com)
             add_action( 'admin_init', array(&$this,'rl_apcf_admin_init') );
             add_action( 'admin_menu', array(&$this, 'rl_apcf_admin_menu'));
             add_action( 'wp_enqueue_scripts', array(&$this,'rl_apcf_enqueue_css'));
-            add_action( 'wp_enqueue_scripts', array(&$this,'rl_apcf_enqueue_js'));
 	    add_shortcode( RL_APCF::SHORTCODE, array(&$this,'disp_shortcode'));
 	    add_filter( 'using_the_plugin', 'do_shortcode');
 	    add_filter( 'plugin_action_links_'.plugin_basename( __FILE__ ), array( &$this, 'rl_apcf_add_action_links' ), 10, 4 );
@@ -146,10 +141,6 @@ Copyright RainbowLink Inc. (email : info@Rainbow-Link.com)
                 return;
             }
             RL_APCF::enqueue_css();
-        }
-        
-        function rl_apcf_enqueue_js() {
-            RL_APCF::enqueue_js();
         }
         
         function disp_rl_apcf(){

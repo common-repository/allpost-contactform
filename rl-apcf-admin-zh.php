@@ -74,3 +74,9 @@ $rl_apcf_admin_sa2_Nginx4 = "# 如果需要，仅允许某些文件类型";
 $rl_apcf_admin_sa2_Nginx5 = "# 限制其他文件类型 ";
 $rl_apcf_admin_sa2_Nginx6 = "更改 Nginx 配置文件后重新加载服务器";
 $rl_apcf_admin_sa3_MalwareScannerPlugins = '如果您想打开此功能，请从 https://WordPress.org/plugins/ 安装任何“恶意软件扫描插件”. Eg)"<a href="https://wordpress.org/plugins/patchstack/" target="_blank">Patchstack</a>""<a href="https://wordpress.org/plugins/malcare-security/" target="_blank">MalCare</a>""<a href="https://wordpress.org/plugins/wordfence/" target="_blank">Wordfence</a>""<a href="https://wordpress.org/plugins/jetpack/" target="_blank">Jetpack Scan</a>""<a href="https://wordpress.org/plugins/sucuri-scanner/" target="_blank">Sucuri Security</a>""<a href="https://wordpress.org/plugins/miniorange-malware-protection/" target="_blank">miniOrange Malware Protection</a>".'; 
+
+/* since v1.7.4 */
+$rl_apcf_admin_options_H2_6 = '"allpost-contactform.js"设置';
+$rl_apcf_admin_js1 = '是否加载<a href="https://www.Rainbow-Link.com/FAQ.htm?&faq_id=177" target="_blank">Whether to load "allpost-contactform.js"</a> ( 如果加载: 1 | 如果不加载: 0 )';
+$rl_apcf_admin_js1_eg = '0';
+

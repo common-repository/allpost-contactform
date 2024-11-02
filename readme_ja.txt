@@ -4,7 +4,7 @@ Donate link: https://www.Rainbow-Link.com/catalogue.htm?&item_no=RLF16ja&link_id
 Tags: contact form, form mail, mail form, form, contact 
 Requires at least: 4.7.3
 Tested up to:  6.6.2
-Stable tag:  1.7.3
+Stable tag:  1.7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,9 +46,6 @@ input　textarea　checkboxなどhtmlフォームのフォーム要素には、�
 
 【利点】
 - ひとつの同じショートコード ( [rlallpostcontactform] ) で、あらゆるhtmlフォームを動かすことができます。
-
-- 「確認画面」への遷移時に、未入力の項目について、ポップアップアラートを表示することができます。
-ポップアップアラートを表示するには、「allpost-contactform.js」をご利用ください。
 
 - 「確認画面」と「送信完了画面」のデザインはご変更になれます。デザインのご変更には、
 「allpost-contactform.css」をご利用ください。
@@ -94,8 +91,6 @@ https://github.com/RainbowLinkInc/All-Post-Contact-Form---for-usage-of-multiling
 
 【カスタマイズに利用するファイル一覧】
 - allpost-contactform.css
-- allpost-contactform.js (  ←　削除してください。 )
-- allpost-contactform_ja.js (  ←　allpost-contactform.js にリネームしてください。 )
 - allpost-contactform-str_replace.php：　"All Post Contact Form"'s Filter File - String Replace - （ 使い方：　https://jp.Rainbow-Link.com/FAQ.htm?&faq_id=247 ）
 - rl-apcf-redirect-conf.php：　 ( "All Post Contact Form"'s Redirect Conf File ) ( 使い方: https://www.Rainbow-Link.com/FAQ.htm?&faq_id=296 )
 - 言語関連ファイル
@@ -190,8 +185,13 @@ plugins_list_zh.png
 
 
 == Changelog ==
+=1.7.4=
+Oct 31, 2024: allpost-contactform.jsの利用方法を変更しました。いままでは本プラグインが自動で読み込んでおりましたが、完全にユーザー樣の裁量に置かせていただくことにいたしました。
+- 「確認画面」への遷移時に、未入力の項目について、ポップアップアラートを表示することができます。
+ポップアップアラートを表示するには、「assets/allpost-contactform.js」を、お使いのテーマに読み込んでください。
+
 =1.7.3=
-Oct 30, 2024: 1.7.2のバグを修正しました。
+Oct 30, 2024: v1.7.2のバグを修正しました。
 
 =1.7.2=
 Oct 28, 2024: FAQを追加しました：　Mime Typeの管理方法

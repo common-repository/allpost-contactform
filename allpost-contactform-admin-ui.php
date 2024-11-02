@@ -73,9 +73,7 @@
         }
         
         function  section_topfunc() {}
-        
-
-               
+              
         function setting_ctitle() {
         $options = RL_APCF::get_option();
             include rl_apcf_dir_path.'allpost-contactform-language.php';
@@ -170,7 +168,6 @@
             echo ' <span class="apcf_eg">'.$rl_apcf_admin_eg.''.$rl_apcf_admin_m3_eg.'</span>
             ';
         }
-        
            
         function setting_redirectpage() {
         $options = RL_APCF::get_option();
@@ -186,7 +183,6 @@
             echo ' <span class="apcf_eg">'.$rl_apcf_admin_eg.''.$rl_apcf_users_toppage_url.'</span>
             ';
         }   
-        
         
         function setting_redirecttime() {
         $options = RL_APCF::get_option();
@@ -207,8 +203,6 @@
             echo '<label for="rlapcf-gototop">'.$rl_apcf_admin_g1.'</label>';
             echo "<input id='rlapcf_gototop' name='allpost_contactform_options[rlapcf_gototop]' type='text' class='option' value='{$value}' />";
         }           
-        
-        
         
         function setting_cookie() {
         $options = RL_APCF::get_option();

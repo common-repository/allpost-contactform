@@ -102,3 +102,11 @@ $rl_apcf_admin_sa2_Nginx6 = "
 أعد تحميل الخادم بعد تغيير ملف تكوين Nginx.
 ";
 $rl_apcf_admin_sa3_MalwareScannerPlugins = ' إذا كنت تريد تشغيل هذه الميزة، فيرجى تثبيت أي "مكوّن إضافي لفحص البرامج الضارة" من https://WordPress.org/plugins/ . Eg)"<a href="https://wordpress.org/plugins/patchstack/" target="_blank">Patchstack</a>""<a href="https://wordpress.org/plugins/malcare-security/" target="_blank">MalCare</a>""<a href="https://wordpress.org/plugins/wordfence/" target="_blank">Wordfence</a>""<a href="https://wordpress.org/plugins/jetpack/" target="_blank">Jetpack Scan</a>""<a href="https://wordpress.org/plugins/sucuri-scanner/" target="_blank">Sucuri Security</a>""<a href="https://wordpress.org/plugins/miniorange-malware-protection/" target="_blank">miniOrange Malware Protection</a>".';
+
+/* since v1.7.4 */
+$rl_apcf_admin_options_H2_6 = ' إعدادات allpost-contactform.js".
+';
+$rl_apcf_admin_js1 = '
+ما إذا كان سيتم تحميل "allpost-contactform.js" (في حالة التحميل: 1 | في حالة عدم التحميل: 0) ';
+$rl_apcf_admin_js1_eg = '0';
+

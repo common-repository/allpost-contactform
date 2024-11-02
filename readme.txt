@@ -184,6 +184,11 @@ plugins_list_zh.png
 
 
 == Changelog ==
+=1.7.4=
+Oct 30, 2024: Changed: usage of allpost-contactform.js. Until now, this plugin was automatically loaded　it into user's theme-header, but from today, this plugin leaves it completely at the user's discretion. 
+- When transitioning to the "Confirmation Window", a pop-up alert can be displayed for unfilled items. 
+To display pop-up alerts, use "assets/allpost-contactform.js" into your theme. 
+
 =1.7.3=
 Oct 30, 2024: Fixed: bug of 1.7.2
 

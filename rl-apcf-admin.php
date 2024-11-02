@@ -81,3 +81,7 @@ $rl_apcf_admin_sa2_Nginx5 = "# Restrict other file types";
 $rl_apcf_admin_sa2_Nginx6 = "Reload the server after changing the Nginx configuration file.";
 $rl_apcf_admin_sa3_MalwareScannerPlugins = 'If you would to turn on this feature, please install any "malware scanning plugin" from <a href="https://wordpress.org/plugins/" target="_blank">https://WordPress.org/plugins/</a>. Eg)"<a href="https://wordpress.org/plugins/patchstack/" target="_blank">Patchstack</a>""<a href="https://wordpress.org/plugins/malcare-security/" target="_blank">MalCare</a>""<a href="https://wordpress.org/plugins/wordfence/" target="_blank">Wordfence</a>""<a href="https://wordpress.org/plugins/jetpack/" target="_blank">Jetpack Scan</a>""<a href="https://wordpress.org/plugins/sucuri-scanner/" target="_blank">Sucuri Security</a>""<a href="https://wordpress.org/plugins/miniorange-malware-protection/" target="_blank">miniOrange Malware Protection</a>".';
 
+/* since v1.7.4 */
+$rl_apcf_admin_options_H2_6 = '"allpost-contactform.js" settings';
+$rl_apcf_admin_js1 = '<a href="https://www.Rainbow-Link.com/FAQ.htm?&faq_id=177" target="_blank">Whether to load "allpost-contactform.js"</a> ( If load: 1 | If not load: 0 )';
+$rl_apcf_admin_js1_eg = '0';

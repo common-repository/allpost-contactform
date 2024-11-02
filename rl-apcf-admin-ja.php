@@ -82,3 +82,8 @@ $rl_apcf_admin_sa2_Nginx4 = "# 必要に応じて、特定のファイルタイ�
 $rl_apcf_admin_sa2_Nginx5 = "# 他のファイルタイプを制限";
 $rl_apcf_admin_sa2_Nginx6 = "Nginxの設定ファイルを変更した後は、サーバーを再読み込みしてください。";
 $rl_apcf_admin_sa3_MalwareScannerPlugins = 'この機能をオンにする場合は、<a href="https://wordpress.org/plugins/" target="_blank">https://WordPress.org/plugins/</a>から、何か「マルウェアスキャンプラグイン」をインストールしてください。たとえば、『<a href="https://wordpress.org/plugins/patchstack/" target="_blank">Patchstack</a>』『<a href="https://wordpress.org/plugins/malcare-security/" target="_blank">MalCare</a>』『<a href="https://wordpress.org/plugins/wordfence/" target="_blank">Wordfence</a>』『<a href="https://wordpress.org/plugins/jetpack/" target="_blank">Jetpack Scan</a>』『<a href="https://wordpress.org/plugins/sucuri-scanner/" target="_blank">Sucuri Security</a>』『<a href="https://wordpress.org/plugins/miniorange-malware-protection/" target="_blank">miniOrange Malware Protection</a>』などがあります。';
+
+/* since v1.7.4 */
+$rl_apcf_admin_options_H2_6 = '"allpost-contactform.jsの"読み込み設定';
+$rl_apcf_admin_js1 = '<a href="https://jp.Rainbow-Link.com/FAQ.htm?&faq_id=179" target="_blank">"allpost-contactform.js"を読み込むかどうか</a> ( 読み込む場合：1 | 読み込まない場合：0 )';
+$rl_apcf_admin_js1_eg = '0';
